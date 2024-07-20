@@ -1,0 +1,174 @@
+body {
+    background:  #f6f8fa;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 68px;
+    align-items: center;
+    padding: 0 17px;
+}
+
+.logo > a {
+    text-indent: -999px;
+    display: inline-block;
+    overflow: hidden;
+    width: 78px;
+    height: 29px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: 0 -98px;
+    vertical-align: top;
+    margin: 17px 0 0 17px;
+}
+
+.signup_signin > select {
+    border: none;
+    background: #f6f8fa;
+}
+
+.signup_signin > a {
+    margin-left: 30px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.signup {
+    color: #000;
+}
+
+.signin {
+    color: #fafafa;
+    background: #21c531;
+    padding: 0 23px;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+}
+
+/* header_last */
+
+/* main_area_start */
+.main_area {
+    display: flex;
+    justify-content: center;
+    padding-top: 76px;
+}
+
+.main_area_img > img {
+    width: 540px;
+    height: 695px;
+}
+
+.main_area_img {
+    margin-right: 50px;
+}
+
+.main_area_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.main_text > h1 {
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.explanation_text {
+    color: #444444;
+}
+
+.main_text > p {
+    margin-top: 13px;
+}
+
+.main_btn_box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+}
+
+.main_btn_box > button {
+    height: 54px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.signin_btn {
+    background: #21c531;
+    border: none;
+    color: #ffffff;
+}
+
+.signup_btn {
+    margin-top: 12px;
+    background: #fff;
+    color: #333;
+    border: 1px solid #ebebeb;
+}
+
+.main_text_link {
+    margin-top: 36px;
+}
+
+.main_text_link > p {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.main_text_link > p > a {
+    color: #21c531;
+}
+
+.background_img_area {
+    background: url(../images/background_area_img.jpg);
+    height: 540px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.background_img_area > h2 {
+    font-size: 42px;
+}
+
+.background_img_area > p {
+    font-size: 16px;
+    margin-top: 18px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.band_list_area {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.band_list {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.band_list > li > img {
+    width: 300px;
+}
+
+.band_list > li > h2 {
+    margin-top: 16px;
+    font-size: 24px;
+}
+
+.band_list > li > p {
+    font-size: 15px;
+    color: #444;
+    margin-top: 6px;
+    line-height: 24px;
+}
+
